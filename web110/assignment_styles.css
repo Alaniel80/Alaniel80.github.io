@@ -4,11 +4,12 @@ html{
 
 body {
     min-height: 100vh;
+    margin:0;
     background: linear-gradient(
         to bottom right,
         rgb(255, 240, 204),
         rgb(210, 180, 130)
-    ) no-repeat;
+    ) fixed;
 }
 
 h1 {
