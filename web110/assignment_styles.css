@@ -1,9 +1,14 @@
+html{
+    min-height: 100%;
+}
+
 body {
+    min-height: 100vh;
     background: linear-gradient(
         to bottom right,
         rgb(255, 240, 204),
         rgb(210, 180, 130)
-    );
+    ) no-repeat;
 }
 
 h1 {
