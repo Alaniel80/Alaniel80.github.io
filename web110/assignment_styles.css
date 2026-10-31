@@ -1,23 +1,31 @@
 body {
-    background-color: rgb(255, 240, 204);
+    background: linear-gradient(
+        to bottom right,
+        rgb(255, 240, 204),
+        rgb(210, 180, 130)
+    );
 }
 
 h1 {
     color: rgb(64, 0, 128);
 }
 
-h2{
+h2 {
     color: rgb(102, 51, 102);
 }
 
-h3{
+h3 {
     color:rgb(115, 63, 90)
 }
 
-h4{
+h4 {
     color:rgb(128, 76, 76)
 }
 
 p {
     color: rgb(26, 0, 51);
+}
+
+footer p {
+    color: rgb(0, 102, 0);
 }
