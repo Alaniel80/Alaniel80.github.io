@@ -51,3 +51,19 @@ footer p {
     text-align: center;
 }
 
+table {
+    width: 90%;
+    margin: 20px auto;
+    border: 4px double rgb(64, 0, 128);
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid rgb(64, 0, 128);
+    padding: 10px;
+}
+
+th {
+    color: rgb(64, 0, 128);
+    font-family: "Palatino Linotype", Palatino, Georgia, serif;
+}
