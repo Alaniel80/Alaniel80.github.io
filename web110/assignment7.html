@@ -4,17 +4,28 @@
         <meta charset="UTF-8">
         <title>Assignment 7</title>
         <link rel="stylesheet" href="assignment_styles.css">
+        <style>
+            #current-table {
+                width: 90%; margin: 20px auto; border: 4px double rgb(64, 0, 128); border-collapse: collapse;
+            }
+
+            #current-table th,#current-table td{
+                border: 1px solid rgb(64, 0, 128);
+                padding: 10px;
+            }
+            </style>
     </head>
 <body>
     <h2>1. Research plans available from different wired (cable, DSL) and wireless (cellular, satellite) Internet providers. Compare mobility, availability, bandwidth, reliability, delay, concurrent connections, security, and cost.</h2>
         <p><b>Starlink</b>, <b>Comcast</b>, and <b>Mint Mobile</b> represent three internet technologies – satellite, cable, and cellular. Because they serve different use cases, the choice depends on where you live and why/how you use the internet. </p>
         <p>Let us compare them on mobility, availability, bandwidth, reliability, delay, concurrent connections, security, and cost.</p>
-    <table style="width: 90%; margin: 20px auto; border: 4px double rgb(64, 0, 128); border-collapse: collapse;">
-        <tr>
+    <table id="current-table">
+
+         <tr>
             <th>Category</th>
             <th>Starlink</th>
             <th>Comcast</th>
-            <th>Mint Moble</th>
+            <th>Mint Mobile</th>
         </tr>
         <tr>
             <td><b>Mobility</b></td>
@@ -23,41 +34,44 @@
             <td>Full mobility with T-Mobile coverage</td>
         </tr>
         <tr>
-        <td><b>Availability</b></td>
-        <td>Almost anywhere</td>
-        <td>Cities and suburbs, approx. 41 states</td>
-        <td>Nationwide</td>
-    </tr>
-    <tr>
-        <td><b>Bandwidth / Delay</b>(<i>(Sources:<a href="https://satspeedcheck.com/blog/starlink-vs-xfinity/?utm_source=copilot.com">Starlink vs Xfinity: Speed, Latency, Price & When Each Wins (2026)</a>, <a href="https://www.speedtest.net/reports/united-states/mobile/">Speed test</a>)</i>)</td>
-        <td>DS ~130 Mbps / US ~15 Mbps / Latency ~25–50 ms</td>
-        <td>DS ~75–2000 Mbps / US ~10–200 Mbps / Latency ~15–30 ms</td>
-        <td>DS ~5–200 Mbps / US lower depending on tower / Latency ~40–60 ms</td>
-    </tr>
-    <tr>
-        <td><b>Reliability</b></td>
-        <td>Weather-dependent</td>
-        <td>Very reliable, consistent performance</td>
-        <td>Depends on tower congestion</td>
-    </tr>
-    <tr>
-        <td><b>Concurrent Connections</b></td>
-        <td>10–20 devices</td>
-        <td>20–50 devices</td>
-        <td>1–5 devices</td>
-    </tr>
-    <tr>
-        <td><b>Security</b></td>
-        <td>Encrypted satellite link</td>
-        <td>Standard cable modem</td>
-        <td>Standard cellular encryption</td>
-    </tr>
-    <tr>
-        <td><b>Cost</b></td>
-        <td>~$50–175/month + ~$600 hardware <i>(<a href="https://starlink.com/service-plans">Starlink Service Plans</a>)</i></td>
-        <td>~$45–100/month <i>(<a href="https://www.xfinity.com/learn/internet-service">Comcast Service Plans</a>)</i></td>
-        <td>~$15–30/month <i>(<a href="https://www.mintmobile.com/plans/">Mint Mobile Plans</a>)</i></td>
-    </tr>
+            <td><b>Availability</b></td>
+            <td>Almost anywhere</td>
+            <td>Cities and suburbs, approx. 41 states</td>
+            <td>Nationwide</td>
+        </tr>
+        <tr>
+            <td>
+                <b>Bandwidth / Delay</b>
+                <i>(Sources:<a href="https://satspeedcheck.com/blog/starlink-vs-xfinity/?utm_source=copilot.com">Starlink vs Xfinity: Speed, Latency, Price & When Each Wins (2026)</a>, <a href="https://www.speedtest.net/reports/united-states/mobile/">Speed test</a>)</i>)
+            </td>
+            <td>DS ~130 Mbps / US ~15 Mbps / Latency ~25–50 ms</td>
+            <td>DS ~75–2000 Mbps / US ~10–200 Mbps / Latency ~15–30 ms</td>
+            <td>DS ~5–200 Mbps / US lower depending on tower / Latency ~40–60 ms</td>
+        </tr>
+        <tr>
+            <td><b>Reliability</b></td>
+            <td>Weather-dependent</td>
+            <td>Very reliable, consistent performance</td>
+            <td>Depends on tower congestion</td>
+        </tr>
+        <tr>
+            <td><b>Concurrent Connections</b></td>
+            <td>10–20 devices</td>
+            <td>20–50 devices</td>
+            <td>1–5 devices</td>
+        </tr>
+        <tr>
+            <td><b>Security</b></td>
+            <td>Encrypted satellite link</td>
+            <td>Standard cable modem</td>
+            <td>Standard cellular encryption</td>
+        </tr>
+        <tr>
+            <td><b>Cost</b></td>
+            <td>~$50–175/month + ~$600 hardware <i>(<a href="https://starlink.com/service-plans">Starlink Service Plans</a>)</i></td>
+            <td>~$45–100/month <i>(<a href="https://www.xfinity.com/learn/internet-service">Comcast Service Plans</a>)</i></td>
+            <td>~$15–30/month <i>(<a href="https://www.mintmobile.com/plans/">Mint Mobile Plans</a>)</i></td>
+        </tr>
     </table>
         <p>In conclusion, <b>Starlink</b> is the best choice for rural, underserved areas with clear skies, where wired infrastructure is limited. <b>Comcast</b> is one of the best choices for home use, gaming, and video calls. <b>Mint Mobile</b> is designed only for mobile phone data and provides nationwide coverage.</p>
         <p>Personally, I use Mint Mobile for all of our family’s mobile phones and Mint Home Internet for our household connection, which currently offers the lowest monthly price available.</p>
