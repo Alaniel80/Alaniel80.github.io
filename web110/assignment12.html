@@ -11,12 +11,6 @@
         document.getElementById("heading").innerHTML="Iana Vasileva"
     </script>
 
-    <p id="current clock"></p>
-    <script>
-        const d=new Date();
-     document.getElementById("current clock").innerHTML=d;
-    </script>
-
     <canvas id="myCanvas" width="300" height="100" style="border: 3px dashed rebeccapurple;margin-left:20px;"></canvas>
     <script>
         const canvas=document.getElementById("myCanvas");
@@ -63,6 +57,14 @@
     <h2> Add a single paragraph summary to assignment12.html that describes what you learned while completing these activities and how you can apply that learning to your own current or future environment.</h2>
     <p> This assignment was the most creative and time-consuming of all. As a visual person, I really enjoyed trying different colors and shapes while structuring the data itself. I can apply this knowledge to future data analysis and data presentation to create attention-grabbing visual elements.<br>
         After focusing so much on coding and visuals, it was actually tough to switch back to just writing this paragraph. <b>JavaScript</b> is the third language I've started learning in the past six months, along with <b>HTML</b> and <b>Python</b>, and it feels a little overwhelming, but incredibly exciting at the same time.</p>
+
+    <p id="current-clock" style="font-weight: bold; font-size: 30px; font-family: 'Brush Script MT', cursive;"></p>
+
+    <script>
+        const d = new Date();
+        document.getElementById("current-clock").innerHTML = d;
+    </script>
+
 
 <footer>
         <p>&copy; 2026 Iana Vasileva. All rights reserved.</p>
