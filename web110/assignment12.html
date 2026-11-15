@@ -6,13 +6,63 @@
         <link rel="stylesheet" href="assignment_styles.css">
     </head>
 <body>
+    <h2 id="heading"></h2>
+    <script>
+        document.getElementById("heading").innerHTML="Iana Vasileva"
+    </script>
 
+    <p id="current clock"></p>
+    <script>
+        const d=new Date();
+     document.getElementById("current clock").innerHTML=d;
+    </script>
 
+    <canvas id="myCanvas" width="300" height="100" style="border: 3px dashed rebeccapurple;margin-left:20px;"></canvas>
+    <script>
+        const canvas=document.getElementById("myCanvas");
+        const ctx=canvas.getContext("2d");
+        ctx.font="40px Brush Script MT,cursive";
+        ctx.fillStyle="#663399";
+        ctx.fillText("Iana Vasileva", 20,50)
+    </script>
 
+    <canvas id="myCanvas2" width="400" height="100" style="border: 3px solid forestgreen; border-radius: 50%; margin-left: 50px;"></canvas>
+    <script>
+        const canvas2=document.getElementById("myCanvas2");
+        const ctx2=canvas2.getContext("2d");
+        ctx2.font="30px Segoe Script";
+        ctx2.fillStyle="#228B22";
+        ctx2.fillText("Don't worry, be happy", 20,50)
+    </script>
 
+    <canvas id="myCanvas3" width="400" height="100" style="margin-left: 50px;"></canvas>
+    <script>
+        const canvas3=document.getElementById("myCanvas3");
+        const ctx3=canvas3.getContext("2d");
+        ctx3.beginPath();
+        ctx3.arc(100, 50, 43, 0, 2 * Math.PI);
+        ctx3.fillStyle="#FFC0CB";
+        ctx3.fill();
 
+        ctx3.strokeStyle="#FF1493";
+        ctx3.lineWidth=3;
+        ctx3.stroke();
 
+        ctx3.beginPath();
+        ctx3.arc(100, 50, 45, 0, 2 * Math.PI);
+        ctx3.strokeStyle="#663399";
+        ctx3.lineWidth=3;
+        ctx3.stroke();
 
+        ctx3.beginPath();
+        ctx3.arc(100, 50, 48, 0, 2 * Math.PI);
+        ctx3.strokeStyle="#228B22";
+        ctx3.lineWidth=3;
+        ctx3.stroke();
+    </script>
+    <h2> Add a single paragraph summary to assignment12.html that describes what you learned while completing these activities and how you can apply that learning to your own current or future environment.</h2>
+    <p> This assignment was the most creative and time-consuming of all. As a visual person, I really enjoyed trying different colors and shapes while structuring the data itself. I can apply this knowledge to future data analysis and data presentation to create attention-grabbing visual elements.<br>
+        After focusing so much on coding and visuals, it was actually tough to switch back to just writing this paragraph. <b>JavaScript</b> is the third language I've started learning in the past six months, along with <b>HTML</b> and <b>Python</b>, and it feels a little overwhelming, but incredibly exciting at the same time.</p>
 
 <footer>
         <p>&copy; 2026 Iana Vasileva. All rights reserved.</p>
