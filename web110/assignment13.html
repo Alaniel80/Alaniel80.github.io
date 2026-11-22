@@ -12,13 +12,13 @@
 
     <ul>
         <li>SELECT * FROM Customers;</li>
-        <li>SELECT CustomerID, CustomerName FROM Customers</li>
-        <li>SELECT CustomerName, Address, City, PostalCode FROM Customers WHERE Country = 'UK'</li>
-        <li>SELECT ContactName, CustomerName FROM Customers ORDER BY ContactName</li>
-        <li>SELECT COUNT(*) FROM Customers</li>
-        <li>SELECT Country, COUNT(*) FROM Customers GROUP BY Country</li>
-        <li>SELECT Country, COUNT(*) FROM Customers GROUP BY Country ORDER BY COUNT(*) DESC, Country ASC</li>
-        <li>SELECT Country, COUNT(*) FROM Customers GROUP BY Country HAVING COUNT(*) > 10 ORDER BY COUNT(*) DESC, Country ASC</li>
+        <li>SELECT CustomerID, CustomerName FROM Customers;</li>
+        <li>SELECT CustomerName, Address, City, PostalCode FROM Customers WHERE Country = 'UK';</li>
+        <li>SELECT ContactName, CustomerName FROM Customers ORDER BY ContactName;</li>
+        <li>SELECT COUNT(*) FROM Customers;</li>
+        <li>SELECT Country, COUNT(*) FROM Customers GROUP BY Country;</li>
+        <li>SELECT Country, COUNT(*) FROM Customers GROUP BY Country ORDER BY COUNT(*) DESC, Country ASC;</li>
+        <li>SELECT Country, COUNT(*) FROM Customers GROUP BY Country HAVING COUNT(*) > 10 ORDER BY COUNT(*) DESC, Country ASC;</li>
     </ul>
 
     <h2>2. Create a paragraph and unordered list for the INSERT, UPDATE, and DELETE statements. </h2>
@@ -26,11 +26,11 @@
     <p>The version of the W3Schools editor presented is not allowing to modify the Shippers table. W3Schools notes that its editor uses a read-only database, which made testing not possible. <br>The following SQL statements demonstrate how to insert, update, and delete data in database tables.</p>
 
     <ul>
-        <li>INSERT INTO Shippers (ShipperID, ShipperName, Phone) VALUES (4, 'On Time Delivery', '(503) 555 0123')</li>
-        <li>UPDATE Products SET Price = Price + 1</li>
-        <li>UPDATE Products SET Price = Price - 1</li>
-        <li>UPDATE Shippers SET ShipperName = 'On-Time Delivery' WHERE ShipperID = 4</li>
-        <li>DELETE FROM Shippers WHERE ShipperID = 4</li>
+        <li>INSERT INTO Shippers (ShipperID, ShipperName, Phone) VALUES (4, 'On Time Delivery', '(503) 555 0123');</li>
+        <li>UPDATE Products SET Price = Price + 1;</li>
+        <li>UPDATE Products SET Price = Price - 1;</li>
+        <li>UPDATE Shippers SET ShipperName = 'On-Time Delivery' WHERE ShipperID = 4;</li>
+        <li>DELETE FROM Shippers WHERE ShipperID = 4;</li>
     </ul>
 
 
