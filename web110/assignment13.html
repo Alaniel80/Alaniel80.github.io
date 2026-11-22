@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Assignment 13</title>
+        <link rel="stylesheet" href="assignment_styles.css">
+    </head>
+<body>
+    <h2>1. Create a paragraph and unordered list for the single-table SELECT statements. </h2>
+    <h3>Practice writing single-table SELECT statements using <a href="https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all">W3Schools SQL TryIt Editor</a></h3>
+    <p>The following SQL statements demonstrate different ways to retrieve and organize customer data from a single table.</p>
+
+    <ul>
+        <li>SELECT * FROM Customers;</li>
+        <li>SELECT CustomerID, CustomerName FROM Customers</li>
+        <li>SELECT CustomerName, Address, City, PostalCode FROM Customers WHERE Country = 'UK'</li>
+        <li>SELECT ContactName, CustomerName FROM Customers ORDER BY ContactName</li>
+        <li>SELECT COUNT(*) FROM Customers</li>
+        <li>SELECT Country, COUNT(*) FROM Customers GROUP BY Country</li>
+        <li>SELECT Country, COUNT(*) FROM Customers GROUP BY Country ORDER BY COUNT(*) DESC, Country ASC</li>
+        <li>SELECT Country, COUNT(*) FROM Customers GROUP BY Country HAVING COUNT(*) > 10 ORDER BY COUNT(*) DESC, Country ASC</li>
+    </ul>
+
+    <h2>2. Create a paragraph and unordered list for the INSERT, UPDATE, and DELETE statements. </h2>
+    <h3>Practice writing single-table SELECT statements using <a href="https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all">W3Schools SQL TryIt Editor</a></h3>
+    <p>The version of the W3Schools editor presented is not allowing to modify the Shippers table. W3Schools notes that its editor uses a read-only database, which made testing not possible. <br>The following SQL statements demonstrate how to insert, update, and delete data in database tables.</p>
+
+    <ul>
+        <li>INSERT INTO Shippers (ShipperID, ShipperName, Phone) VALUES (4, 'On Time Delivery', '(503) 555 0123')</li>
+        <li>UPDATE Products SET Price = Price + 1</li>
+        <li>UPDATE Products SET Price = Price - 1</li>
+        <li>UPDATE Shippers SET ShipperName = 'On-Time Delivery' WHERE ShipperID = 4</li>
+        <li>DELETE FROM Shippers WHERE ShipperID = 4</li>
+    </ul>
+
+
+<footer>
+        <p>&copy; 2026 Iana Vasileva. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
